@@ -1,0 +1,45 @@
+body {
+  background-image: url(images/gifimage.gif);
+  background-repeat: repeat;
+  height: 100vh;
+  margin: 0px;
+}
+
+h1 {
+  color: #3e7f6d;
+  font-size: 80px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-width: 20px;
+  background-image: url(images/image.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div {
+  background-color: #60af7c;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+#red {
+  background-color: white;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 130px;
+  left: calc(50vw - 250px);
+  text-align: justify;
+  padding: 10px;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+#red:hover {
+  background-color: red;
+}
